@@ -4,7 +4,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 
 
-service = webdriver.ChromeService(executable_path='chromedriver.exe')
+service = webdriver.ChromeService(executable_path='chromedriver')
 options = webdriver.ChromeOptions()
 options.add_argument(
     "user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36")
